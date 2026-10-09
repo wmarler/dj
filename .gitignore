@@ -1,0 +1,13 @@
+# Local / server-specific (may contain hostnames or personal playlists)
+deploy.config
+config.js
+songs.yaml
+
+# Nginx vhost snippets (hostnames, paths)
+nginx-*.conf
+*.wmarler.com*
+
+# Editor / OS
+.DS_Store
+*.swp
+*~

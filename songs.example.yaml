@@ -1,0 +1,16 @@
+# Copy to songs.yaml and edit your board (songs.yaml is not committed).
+# video_id: from YouTube Music → Share → v=XXXXXXXXXXX
+# start: seconds or mm:ss
+
+title: Game Day
+
+songs:
+  - id: eye-tiger
+    name: Eye of the Tiger
+    video_id: btPJPFnesV4
+    start: "0:45"
+
+  - id: thunder
+    name: Thunderstruck
+    video_id: v2AC41dglnM
+    start: 0

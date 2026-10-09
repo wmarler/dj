@@ -1,0 +1,2 @@
+# Copy to deploy.config and set your web root (deploy.config is not committed).
+DEST=/var/www/example

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Sports Audio DJ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Sports Audio DJ</h1>
+    <div class="legend" aria-hidden="true">
+      <span><i class="dot dot--ready"></i> ready</span>
+      <span><i class="dot dot--recent"></i> last hour</span>
+    </div>
+  </header>
+
+  <div id="board" aria-live="polite"></div>
+  <p id="status">Loading songs…</p>
+
+  <footer id="player-bar">
+    <div class="now">Now: <span id="now-playing">—</span></div>
+    <div id="player-wrap"><div id="player"></div></div>
+    <div class="bar-actions">
+      <button type="button" id="btn-stop">Stop</button>
+      <button type="button" id="btn-open-app">Open in YT Music</button>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="app.js"></script>
+</body>
+</html>
